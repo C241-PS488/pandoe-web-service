@@ -4,9 +4,8 @@ const app = express();
 const authRoutes = require('./routes/authRoutes');
 const usersRoutes = require('./routes/usersRoutes');
 const feedRoutes = require('./routes/feedRoutes');
-
-require('dotenv').config();
-const port = process.env.PORT;
+const predictRoutes = require('./routes/predictRoutes')
+const {port} = require('../src/config')
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -14,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/auth', authRoutes);
 app.use('/api/users', usersRoutes);
 app.use('/api/feed', feedRoutes);
+app.use('/api/', predictRoutes)
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
