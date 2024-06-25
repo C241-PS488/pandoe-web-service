@@ -1,11 +1,12 @@
 # Pandoe-Web Service
 
-### Table of content
-- [Environment](#environment)
-- [Configuration](#configuration)
-- [API Documentation](#Api Documentation)
-- [API URL](#Environment)
-- [Running The Server](#Environment)
+# Table of Contents
+1. [Environment](#environment)
+2. [Configuration](#configuration)
+3. [API Documentation](#api-documentation)
+4. [API URL](#api-url)
+5. [Running The Server](#running-the-server)
+
 ### Environment
 Pandoe Web Service runs with :
 1. ExpressJS
