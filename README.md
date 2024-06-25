@@ -3,7 +3,7 @@
 ### Table of content
 - [Environment](#environment)
 - [Configuration](#configuration)
-- [API Documentation](#api_documentation)
+- [API Documentation](#Api Documentation)
 - [API URL](#Environment)
 - [Running The Server](#Environment)
 ### Environment
