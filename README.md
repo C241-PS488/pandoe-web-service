@@ -1,6 +1,7 @@
 # Pandoe-Web Service
+Pandoe web service repository for deploying and integrating a machine learning model with Google Cloud Platform services.
 
-# Table of Contents
+## Table of Contents
 1. [Environment](#environment)
 2. [Configuration](#configuration)
 3. [API Documentation](#api-documentation)
