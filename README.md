@@ -20,6 +20,7 @@ You need these to run the server
    GOOGLE_APPLICATION_CREDENTIALS = ""
    ```
 - service-account.json
+  (you can get the key from IAM > service account > create service account > set the role to storage object admin > manage key > create json key) 
   ```
   {
   "type": "",
